@@ -16,8 +16,8 @@ const menu = [
         entree: {
             name: 'Breaded Chicken on a Bun',
             price: '5.95'
-        }
-        avilable: {
+        },
+        available: {
             mon: false,
             tues: true,
             wed: true,
@@ -44,8 +44,8 @@ const menu = [
         entree: {
             name: 'Fish and Chips',
             price: '5.95'
-        }
-        avilable: {
+        },
+        available: {
             mon: false,
             tues: true,
             wed: true,
@@ -72,8 +72,8 @@ const menu = [
         entree: {
             name: 'Butter Chicken with Rice Pilaf',
             price: '5.95'
-        }
-        avilable: {
+        },
+        available: {
             mon: false,
             tues: true,
             wed: true,
@@ -100,8 +100,8 @@ const menu = [
         entree: {
             name: 'Matar Paneer & Basmati Rice',
             price: '5.95'
-        }
-        avilable: {
+        },
+        available: {
             mon: false,
             tues: true,
             wed: true,
@@ -128,8 +128,8 @@ const menu = [
         entree: {
             name: 'Beef and Broccoli with Fried Rice',
             price: '5.95'
-        }
-        avilable: {
+        },
+        available: {
             mon: false,
             tues: true,
             wed: true,
