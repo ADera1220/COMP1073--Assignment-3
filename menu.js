@@ -17,6 +17,15 @@ const menu = [
             name: 'Breaded Chicken on a Bun',
             price: '5.95'
         }
+        avilable: {
+            mon: false,
+            tues: true,
+            wed: true,
+            thurs: true,
+            fri: true,
+            sat: true,
+            sun: true,
+        }
     },
     {
         title: 'menu 2',
@@ -35,6 +44,15 @@ const menu = [
         entree: {
             name: 'Fish and Chips',
             price: '5.95'
+        }
+        avilable: {
+            mon: false,
+            tues: true,
+            wed: true,
+            thurs: true,
+            fri: true,
+            sat: true,
+            sun: true,
         }
     },
     {
@@ -55,6 +73,15 @@ const menu = [
             name: 'Butter Chicken with Rice Pilaf',
             price: '5.95'
         }
+        avilable: {
+            mon: false,
+            tues: true,
+            wed: true,
+            thurs: true,
+            fri: true,
+            sat: true,
+            sun: true,
+        }
     },
     {
         title: 'menu 4',
@@ -74,6 +101,15 @@ const menu = [
             name: 'Matar Paneer & Basmati Rice',
             price: '5.95'
         }
+        avilable: {
+            mon: false,
+            tues: true,
+            wed: true,
+            thurs: true,
+            fri: true,
+            sat: true,
+            sun: true,
+        }
     },
     {
         title: 'menu 5',
@@ -92,6 +128,15 @@ const menu = [
         entree: {
             name: 'Beef and Broccoli with Fried Rice',
             price: '5.95'
+        }
+        avilable: {
+            mon: false,
+            tues: true,
+            wed: true,
+            thurs: true,
+            fri: true,
+            sat: true,
+            sun: true,
         }
     }
 ]
