@@ -1,0 +1,102 @@
+html {
+  box-sizing: border-box;
+  font-family:  'Saira', sans-serif;
+  font-size: 3vh;
+  font-weight: 200;
+}
+
+body {
+  margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1 { 
+  margin: 10px;
+  font-size: 1rem;
+}
+p { 
+  margin: 0; 
+  font-size: 1.7rem;
+}
+.panels {
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.panel {
+  text-align: right;
+  color: #fff;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  transition: flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11);
+}
+
+.panel0 {
+  background: #43C6AC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #777 !important;
+  max-height: 10vh;
+}
+
+.panel1 { 
+  background-color: #4C99CF; 
+}
+
+.panel2 { 
+  background-color: #4873A6
+}
+
+.panel3 {
+  background-color: #595386;
+}
+
+.panel4 {
+  background-color: #524364;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav { margin-top: 12px; text-align: center;}
+
+#menu {
+  display: flex;
+  font-size: 12px;
+  text-align: center;
+  border: 3px solid #fff;
+}
+
+#menu button { 
+  border: 0;
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 25px;
+}
+
+#menu h2 {
+  margin: 12px 10px;
+}
+
+.icon {
+  width: 80px;
+  color: #fff;
+}
